@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(indir.jpeg);
+    background-size: cover; /* Resmi pencereye tamamen sığdırır */
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+
+.todo-list {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: rgb(192, 236, 236);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.todo-list h1 {
+    text-align: center;
+}
+
+.todo-list input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.todo-list button {
+    background-color: #4CAF50;
+    color: rgb(161, 198, 205);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.todo-list button:hover {
+    background-color: #45a049;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+.cerceve{
+    
+   
+    width:900px;
+    height: 900px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 30px; 
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: auto;
+    border: 2px solid #ccc;
+
+}
